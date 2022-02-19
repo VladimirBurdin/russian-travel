@@ -1,0 +1,7 @@
+.cover__background {
+  width: 100%;
+  object-fit: cover;
+  display: grid;
+  text-decoration: none;
+  z-index: 0;
+}

@@ -1,0 +1,14 @@
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+.place__paragraph:not(:last-child) {
+  padding-bottom: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .place__paragraph:not(:last-child) {
+    padding-bottom: 26px;
+  }
+}

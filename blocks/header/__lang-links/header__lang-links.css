@@ -1,0 +1,6 @@
+.header__lang-links {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 18px;
+}

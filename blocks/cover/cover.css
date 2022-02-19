@@ -1,0 +1,14 @@
+.cover {
+  max-width: 1184px;
+  margin: auto;
+  text-align: center;
+  margin-top: 97px;
+  position: relative;
+}
+
+@media only screen and (min-width: 1280px) {
+  .cover{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
