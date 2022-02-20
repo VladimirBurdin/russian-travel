@@ -1,11 +1,10 @@
 .footer__items {
   margin: 0;
   padding: 64px 0 48px 16px;
-  items-style-type: none;
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  list-style-type: none;
-  color: #fff;
+    
 }
 
 @media only screen and (min-width: 768px) {
