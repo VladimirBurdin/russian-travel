@@ -1,0 +1,22 @@
+.footer__items {
+  margin: 0;
+  padding: 64px 0 48px 16px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__items {
+    flex-direction: row;
+    padding-bottom: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer__items {
+    padding-left: 48px;
+  }
+}
